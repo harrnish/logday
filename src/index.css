@@ -1,0 +1,51 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --dark01: #121212;
+  --dark02: #151515;
+  --dark03: #1b1b1b;
+  --dark04: #202020;
+  --dark05: #181818;
+  --dark06: #232323;
+
+  --light01: #ffffff;
+  --light02: #f4f4f4;
+  --light03: #e3e3e3;
+  --light04: #a0a0a0;
+  --light05: #5a5a5a;
+  --light06: #666666;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--dark03);
+  color: var(--light03);
+}
+
+h1 {
+  color: var(--light01);
+  font-size: 1.75rem;
+  font-weight: 500;
+}
+
+p {
+  font-size: 14px;
+}
